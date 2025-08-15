@@ -12,7 +12,7 @@ Instagram लिंक कैसे सेट करें?
 -----------------------------
 1) `script.js` खोलिए
 2) यह लाइन ढूँढिए:
-   const INSTAGRAM_LINK = "https://instagram.com/your_username_here";
+   const INSTAGRAM_LINK = "https://instagram.com/ritik_.kushwah";
 3) अपने Instagram का पूरा URL डाल दीजिए, जैसे:
    const INSTAGRAM_LINK = "https://instagram.com/ritik";   // उदाहरण
 
