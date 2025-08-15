@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Software Gyancharcha System – SESa</title>
+  <meta name="description" content="SESa: Software Gyancharcha System — विषय-सूची आधारित ज्ञान चर्चा वेबसाइट टेम्पलेट।" />
+  <link rel="icon" href="assets/instagram.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand" title="Top पर जाएँ">SESa • Software Gyancharcha System</div>
+    <span class="badge">v1.0</span>
+    <div class="spacer"></div>
+    <!-- Instagram icon top-right -->
+    <a class="icon-btn" data-ig target="_blank" rel="noopener" href="#">
+      <img src="assets/instagram.svg" alt="Instagram" aria-hidden="true" />
+    </a>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="search">
+        <input id="q" type="search" placeholder="यहाँ खोजें…" aria-label="खोज" />
+        <button type="button" onclick="document.querySelector('#q').value='';document.querySelector('#q').dispatchEvent(new Event('input'));">Clear</button>
+      </div>
+      <nav class="nav">
+        <a href="#intro">परिचय</a>
+        <a href="#toc">विषय-सूची</a>
+        <a href="#kabir">सुक्ष्म वेद: कबीर सागर</a>
+        <a href="#garibdas">गरीबदास जी: अमर ग्रंथ</a>
+        <a href="#aarti">आरती: शब्द व अर्थ</a>
+        <a href="#sr-rampal">संत रामपालजी: तत्त्व विज्ञान</a>
+        <a href="#ved">पवित्र वेद</a>
+        <a href="#geeta">श्रीमद भगवद गीता</a>
+        <a href="#puran">पुराण</a>
+        <a href="#upanishad">उपनिषद</a>
+        <a href="#dharma">विविध धर्म</a>
+        <a href="#panth">पंथ/मत/सम्प्रदाय</a>
+        <a href="#digital">Digital प्रचार</a>
+        <a href="#legal">Court & Legal</a>
+        <a href="#forms">शास्त्र चर्चा फ़ॉर्म</a>
+        <a href="#downloads">डाउनलोड/लिंक्स</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="section" id="intro">
+        <div class="kicker">Welcome</div>
+        <h2>बंदीछोड़ जगतगुरु तत्वदर्शी संत श्री रामपालजी महाराजजी की जय हो</h2>
+        <p class="small">
+          यह वेबसाइट टेम्पलेट “Software Gyancharcha System (SESa)” आपके डॉक्यूमेंट की विषय-सूची के आधार पर बनाया गया है।
+          आप सभी सेक्शन्स में अपना विस्तृत कंटेंट जोड़ सकते हैं। ऊपर दाएँ Instagram आइकन पर आपका लिंक सेट है —
+          <strong>script.js</strong> में <code>INSTAGRAM_LINK</code> बदलें।
+        </p>
+      </section>
+
+      <section class="section" id="toc">
+        <h2>विषय-सूची (Table of Contents)</h2>
+        <p>नीचे आपकी डॉक्यूमेंट के प्रमुख सेक्शन के लिए प्लेसहोल्डर दिए गए हैं। आप इन्हें एडिट/बढ़ा सकते हैं।</p>
+        <ul>
+          <li>सुक्ष्म वेद: कबीरजी की वाणी (कबीर सागर)</li>
+          <li>गरीबदासजी की वाणी (अमर ग्रन्थ)</li>
+          <li>तीनों समय की आरती – शब्द और गूढ़ अर्थ</li>
+          <li>संत रामपालजी महाराजजी का तत्त्व विज्ञान, VDO, नियमावली, प्रभाव</li>
+          <li>पवित्र वेद (ऋग, यजुर, साम, अथर्व)</li>
+          <li>श्रीमद भगवद गीता</li>
+          <li>पुराण, उपनिषद</li>
+          <li>विविध धर्म, पंथ/मत/सम्प्रदाय</li>
+          <li>Digital प्रचार (X, Facebook, YouTube, Pinterest)</li>
+          <li>Court Matters & Legal issues</li>
+          <li>शास्त्रीय जवाब, चर्चा फ़ॉर्म, Trending Topics</li>
+        </ul>
+      </section>
+
+      <section class="section" id="kabir">
+        <h2>सुक्ष्म वेद: कबीर सागर</h2>
+        <p class="small">यहाँ कबीर सागर संबंधित सामग्री जोड़ें। पुस्तक/अध्याय-वाइज़ PDF लिंक भी जोड़ सकते हैं।</p>
+        <table class="table">
+          <thead><tr><th>विषय</th><th>नोट्स</th><th>लिंक</th></tr></thead>
+          <tbody>
+            <tr><td>कविर्देव का वर्णन</td><td>उद्धरण/संदर्भ जोड़ें</td><td><a href="#">PDF</a></td></tr>
+            <tr><td>सृष्टि रचना</td><td>पेज 22 आदि</td><td><a href="#">PDF</a></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" id="garibdas">
+        <h2>गरीबदास जी: अमर ग्रंथ</h2>
+        <p>मुख्य वाणियाँ, संदर्भ, स्पष्टीकरण और मीडिया (चित्र/वीडियो) यहाँ रखें।</p>
+      </section>
+
+      <section class="section" id="aarti">
+        <h2>तीनों समय की आरती — शब्द व गूढ़ अर्थ</h2>
+        <p>गुरूजी के सत्संग/पुस्तकों के आधार पर विस्तृत अर्थ जोड़ें।</p>
+      </section>
+
+      <section class="section" id="sr-rampal">
+        <h2>संत रामपालजी महाराजजी का तत्त्व विज्ञान</h2>
+        <p>VDO, नियमावली 1–3, प्रभाव/परिणाम, आश्रम सूची, नामदान सेंटर आदि जोड़ें।</p>
+      </section>
+
+      <section class="section" id="ved">
+        <h2>पवित्र वेद</h2>
+        <ul>
+          <li>ऋग्वेद</li>
+          <li>यजुर्वेद</li>
+          <li>सामवेद</li>
+          <li>अथर्ववेद</li>
+        </ul>
+      </section>
+
+      <section class="section" id="geeta">
+        <h2>श्रीमद भगवद गीता</h2>
+        <p>अध्याय/श्लोक संदर्भ, तुलना, चर्चा बिंदु, PDF/वीडियो लिंक।</p>
+      </section>
+
+      <section class="section" id="puran">
+        <h2>पुराण</h2>
+        <p>देवी, शिव, विष्णु, स्कन्द, गरुड़, अग्नि, ब्रह्म, पद्म, भविष्य, नारद, ब्रह्मवैवर्त, लिंग, वाराह, वामन, कूर्म, मत्स्य, ब्रह्माण्ड आदि।</p>
+      </section>
+
+      <section class="section" id="upanishad">
+        <h2>उपनिषद</h2>
+        <p>केन, कठ, प्रश्नोपनिषद आदि — प्रमुख मंत्र/भावार्थ।</p>
+      </section>
+
+      <section class="section" id="dharma">
+        <h2>विविध धर्म</h2>
+        <p>हिन्दू, मुस्लिम, सिख, ईसाई, बौद्ध, पारसी, कन्फ्यूशियस, यहूदी, शिंतो आदि पर तुलनात्मक नोट्स।</p>
+      </section>
+
+      <section class="section" id="panth">
+        <h2>पंथ/मत/सम्प्रदाय</h2>
+        <p>आर्यसमाज, राधास्वामी, स्वाध्याय, BAPS, इस्कॉन, शैव/वैष्णव/बिश्नोई आदि।</p>
+      </section>
+
+      <section class="section" id="digital">
+        <h2>Digital प्रचार</h2>
+        <ul>
+          <li>X (Twitter)</li>
+          <li>Facebook</li>
+          <li>YouTube</li>
+          <li>Pinterest</li>
+        </ul>
+      </section>
+
+      <section class="section" id="legal">
+        <h2>Court Matters & Legal Issues</h2>
+        <p>FIR, चार्जशीट, कोर्ट केस आदि विषयों पर तर्क/प्रमाण/चर्चा बिंदु रखें।</p>
+      </section>
+
+      <section class="section" id="forms">
+        <h2>शास्त्र चर्चा फ़ॉर्म</h2>
+        <p>प्रश्नावली (Multiple-Choice/ABCD) के टेम्पलेट और निर्देश।</p>
+        <ul>
+          <li>गुरु मंत्र दीक्षा — हाँ/ना</li>
+          <li>जप/स्मरण — कौन सा मंत्र? शास्त्र प्रमाण?</li>
+          <li>ईश्वर सह-शरीर या निराकार?</li>
+          <li>मूर्ति-पूजा — शास्त्रीय दृष्टि</li>
+          <li>व्रत/उपवास — गीता 6/16–17, 16/23–24</li>
+          <li>मोक्ष की परिभाषा — 84 लाख योनियाँ?</li>
+        </ul>
+      </section>
+
+      <section class="section" id="downloads">
+        <h2>डाउनलोड्स व लिंक्स</h2>
+        <p>यहाँ आप PDF/Word/Excel/वीडियो लिंक जोड़ सकते हैं। अभी के लिए प्लेसहोल्डर:</p>
+        <ul>
+          <li><a href="#" download>उदाहरण PDF</a></li>
+          <li><a href="#" download>उदाहरण DOCX</a></li>
+        </ul>
+      </section>
+
+      <div class="footer">© <span data-year></span> SESa • Crafted for your content.</div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
